@@ -86,6 +86,11 @@ where business logic is applied
 [Testing](https://github.com/solmazumut/modanisa-todo-app/#testing)
 -------
 
+Every test method has following parts:
+- Given: Preparing the state for the test
+- When: Execution of the part to be tested
+- Then: Assertions and checks for expected results
+
 Backend testing (unit and contract testing)
 
     go test ./...
