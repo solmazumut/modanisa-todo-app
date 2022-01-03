@@ -1,0 +1,7 @@
+server:
+  port: "8081"
+couchbase:
+  addresses: "localhost:8091"
+  bucket: "Todo"
+  username: "admin"
+  password: "123456"

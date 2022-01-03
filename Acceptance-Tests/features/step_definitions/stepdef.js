@@ -25,6 +25,7 @@ When('Reset todos and add {string}', async function (task) {
 });
 
 Then('I should see the {string}', {timeout: 60 * 1000}, async function (task) {
+
   const taskName = await driver.findElement(By.tagName("td")).getText();
   await driver.quit();
   expect(task).to.equal(taskName);

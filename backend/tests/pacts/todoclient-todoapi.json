@@ -1,0 +1,38 @@
+{
+  "consumer": {
+    "name": "frontend"
+  },
+  "provider": {
+    "name": "backend"
+  },
+  "interactions": [
+    {
+      "description": "A POST request for test-todo",
+      "providerState": "The initial todo list is empty ",
+      "request": {
+        "method": "POST",
+        "path": "/todo",
+        "headers": {
+          "Accept": "application/json"
+        },
+        "body": {
+          "task": "test-todo"
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "msg": "test-todo was added"
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  }
+}
