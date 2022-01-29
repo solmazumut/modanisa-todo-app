@@ -1,19 +1,19 @@
-# modanisa-todo-app
+#todo-app
 -------
 
-This is an Modanisa Assignment - Web Based ToDo List Application. This project is an example of simple REST API implementation with clean architecture written in Go with complete Dependency Injection along with Mocking example, following SOLID principles and a simple to-do list app built with Vue.js
+Web Based ToDo List Application. This project is an example of simple REST API implementation with clean architecture written in Go with complete Dependency Injection along with Mocking example, following SOLID principles and a simple to-do list app built with Vue.js
 
 Get Started:
 
- - [Install](https://github.com/solmazumut/modanisa-todo-app/#install)
- - [Introduction](https://github.com/solmazumut/modanisa-todo-app/#introduction)
- - [Backend Folder Structure](https://github.com/solmazumut/modanisa-todo-app/#folder-structure)
- - [Testing](https://github.com/solmazumut/modanisa-todo-app/#testing)
+ - [Install](https://github.com/solmazumut/todo-app/#install)
+ - [Introduction](https://github.com/solmazumut/todo-app/#introduction)
+ - [Backend Folder Structure](https://github.com/solmazumut/todo-app/#folder-structure)
+ - [Testing](https://github.com/solmazumut/todo-app/#testing)
 
 
 ----------
 
-[Install](https://github.com/solmazumut/modanisa-todo-app/#install)
+[Install](https://github.com/solmazumut/todo-app/#install)
 -------
 
 Start a couchbase instance locally
@@ -43,7 +43,7 @@ Run the app
     
 ----------
 
-[Introduction](https://github.com/solmazumut/modanisa-todo-app/#introduction)
+[Introduction](https://github.com/solmazumut/todo-app/#introduction)
 -------
 
 While developing the backend code, Dependency injection, one of the SOLID principles, was implemented. The goal here is to minimize coupling and maximize cohesion. With Abstraction, code fragments can be quickly replaced without any concerns.
@@ -55,7 +55,7 @@ While developing the backend code, Dependency injection, one of the SOLID princi
 
 ----------
 
-[Backend Folder Structure](https://github.com/solmazumut/modanisa-todo-app/#folder-structure)
+[Backend Folder Structure](https://github.com/solmazumut/todo-app/#folder-structure)
 -------
 ### controllers
 
@@ -83,7 +83,7 @@ where business logic is applied
 
 ----------
 
-[Testing](https://github.com/solmazumut/modanisa-todo-app/#testing)
+[Testing](https://github.com/solmazumut/todo-app/#testing)
 -------
 
 Every test method has following parts:
